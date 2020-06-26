@@ -1,0 +1,34 @@
+include _components/_head
+//- include _components/_header
+include _components/_foot
+//- include _components/_footer
+
+doctype html
+html(lang="en")
+	head
+		+head('web-academy', 'home work')
+
+	body.main
+			.app
+				ul.slider
+					li.sl
+						.sl-img-wrap
+							img(src="").sl-img
+						h3.sl-title
+						.sl-dscr-wrap
+							p.sl-dscr
+
+							button(type='button').btn-toggle
+								| Toggle
+
+				.slider-controls
+					button(type='button').btn.btn-start
+						| &#8617; &#8617; &#8617;
+					button(type='button').btn.btn-prev &#8612;
+					button(type='button').btn.btn-next &#8614;
+					button(type='button').btn.btn-end
+						| &#8618; &#8618; &#8618;
+
+		
+		+foot
+		//- +footer

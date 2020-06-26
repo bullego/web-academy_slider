@@ -1,0 +1,21 @@
+﻿# cache
+Thumbs.db
+Desktop.ini
+*.DS_Store
+*.empty
+*~
+
+# IDE
+*.sublime-workspace
+*.sublime-project
+.idea
+.vscode
+
+# project
+psd/
+tech-desk/
+./test/
+
+node_modules/
+package-lock.json
+build/
